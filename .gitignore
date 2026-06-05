@@ -1,0 +1,8 @@
+keyfile.toml
+new.json
+*.pkg.tar.*
+src/
+pkg/
+omp-*-x86_64
+omp-*-aarch64
+LICENSE-*
