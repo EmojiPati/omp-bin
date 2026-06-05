@@ -23,7 +23,7 @@ jobs:
           pacman -Syu --noconfirm --needed \
             git openssh nvchecker jq pacman-contrib
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Trust workspace (git safe.directory)
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
