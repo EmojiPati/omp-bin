@@ -2,7 +2,7 @@ name: Update AUR package
 
 on:
   schedule:
-    - cron: '0 8 * * *'   # daily at 08:00 UTC
+    - cron: '*/15 * * * *'   # every 15 minutes
   workflow_dispatch:        # manual trigger from the Actions tab
 
 concurrency:
