@@ -2,9 +2,9 @@
   "version": 2,
   "data": {
     "omp-bin": {
-      "version": "16.3.7",
-      "gitref": "refs/tags/v16.3.7",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v16.3.7"
+      "version": "16.3.8",
+      "gitref": "refs/tags/v16.3.8",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v16.3.8"
     }
   }
 }
