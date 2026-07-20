@@ -2,7 +2,7 @@
 
 pkgname=omp-bin
 pkgver=17.0.5
-pkgrel=1
+pkgrel=2
 pkgdesc="oh-my-pi (omp): AI coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more (release binary)"
 arch=('x86_64' 'aarch64')
 url="https://github.com/can1357/oh-my-pi"
@@ -12,7 +12,7 @@ optdepends=('bash-completion: bash tab-completion for omp'
             'chromium: browser tool (headless web automation)'
             'python: persistent Python eval cells')
 provides=("oh-my-pi=$pkgver")
-conflicts=('oh-my-pi' 'omp')
+conflicts=('oh-my-pi' 'oh-my-pi-bin' 'omp')
 options=('!strip' '!debug')
 source=("LICENSE-${pkgver}::https://raw.githubusercontent.com/can1357/oh-my-pi/v${pkgver}/LICENSE")
 source_x86_64=("omp-${pkgver}-x86_64::https://github.com/can1357/oh-my-pi/releases/download/v${pkgver}/omp-linux-x64")

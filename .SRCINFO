@@ -1,7 +1,7 @@
 pkgbase = omp-bin
 	pkgdesc = oh-my-pi (omp): AI coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more (release binary)
 	pkgver = 17.0.5
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/can1357/oh-my-pi
 	arch = x86_64
 	arch = aarch64
@@ -12,6 +12,7 @@ pkgbase = omp-bin
 	optdepends = python: persistent Python eval cells
 	provides = oh-my-pi=17.0.5
 	conflicts = oh-my-pi
+	conflicts = oh-my-pi-bin
 	conflicts = omp
 	options = !strip
 	options = !debug
