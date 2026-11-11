@@ -2,10 +2,10 @@
   "version": 2,
   "data": {
     "omp-bin": {
-      "version": "18.18.8",
-      "gitref": "refs/tags/v18.18.8",
-      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.18.8",
-      "creation_time": "2026-11-11T03:31:40Z"
+      "version": "18.18.9",
+      "gitref": "refs/tags/v18.18.9",
+      "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.18.9",
+      "creation_time": "2026-11-11T19:06:16Z"
     }
   }
 }
